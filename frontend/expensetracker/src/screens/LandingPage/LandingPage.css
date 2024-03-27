@@ -1,0 +1,43 @@
+.main {
+  background-image: url("../../images/cover.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+h1 {
+  position: relative;
+  left: 30vw;
+  top: 39vh;
+  font-size: 62px;
+  font-weight: 900;
+}
+p {
+  position: relative;
+  left: 33vw;
+  top: 39vh;
+  font-size: 30px;
+}
+
+.landingbutton {
+  position: relative;
+  left: 34vw;
+  top: 43vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin: 20px;
+  background-color: rgb(103, 216, 103);
+  font-size: 20px;
+  border-radius: 8px;
+  font-family: "Nunito", sans-serif;
+}
+a:link {
+  text-decoration: none;
+}
